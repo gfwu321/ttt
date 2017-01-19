@@ -25,7 +25,7 @@
   </dependencies>
   <build>
     <finalName>web</finalName>
-    <plugins>
+    <!-- <plugins>
     <plugin>
 				<groupId>org.codehaus.cargo</groupId>
 				<artifactId>cargo-maven2-plugin</artifactId>
@@ -48,6 +48,6 @@
         </execution>
     </executions>	
 </plugin>
-</plugins>
+</plugins> -->
   </build>
 </project>
