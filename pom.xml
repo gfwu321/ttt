@@ -33,11 +33,11 @@
 				<configuration>
 					<container>
 						<containerId>tomcat7x</containerId>
-						<home>/usr/local/java/jdk1.7.0_79</home>
+						<home>/usr/local/java/apache-tomcat-7.0.69</home>
 					</container>
 					<configuration>
 						<type>existing</type>
-						<home>/usr/local/java/jdk1.7.0_79</home>
+						<home>/usr/local/java/apache-tomcat-7.0.69</home>
 					</configuration>
 				</configuration>
 				<executions>
