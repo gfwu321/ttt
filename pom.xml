@@ -25,5 +25,29 @@
   </dependencies>
   <build>
     <finalName>web</finalName>
+    <plugins>
+    <plugin>
+				<groupId>org.codehaus.cargo</groupId>
+				<artifactId>cargo-maven2-plugin</artifactId>
+				<version>1.4.5</version>
+				<configuration>
+					<container>
+						<containerId>tomcat7x</containerId>
+						<home>/usr/local/java/jdk1.7.0_79</home>
+					</container>
+					<configuration>
+						<type>existing</type>
+						<home>/usr/local/java/jdk1.7.0_79</home>
+					</configuration>
+				</configuration>
+				<executions>
+        <execution>
+            <id>tomcat-deploy</id>
+            <phase>package</phase>
+            <goals><goal>deploy</goal></goals>
+        </execution>
+    </executions>	
+</plugin>
+</plugins>
   </build>
 </project>
